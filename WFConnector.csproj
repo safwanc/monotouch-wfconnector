@@ -45,4 +45,12 @@
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Xamarin.ObjcBinding.CSharp.targets" />
+  <ItemGroup>
+    <ObjcBindingNativeLibrary Include="Resources\WFConnector.a" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\WFConnector.linkwith.cs">
+      <DependentUpon>WFConnector.a</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>
