@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFConnector", "WFConnector.csproj", "{497BE641-C991-4B4B-8ADF-2B2C9B3118CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{497BE641-C991-4B4B-8ADF-2B2C9B3118CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497BE641-C991-4B4B-8ADF-2B2C9B3118CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497BE641-C991-4B4B-8ADF-2B2C9B3118CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497BE641-C991-4B4B-8ADF-2B2C9B3118CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = WFConnector.csproj
+		description = Wahoo API's WFConnector.framework binding for Monotouch/Xamarin.iOS
+		version = 3.2
+	EndGlobalSection
+EndGlobal
