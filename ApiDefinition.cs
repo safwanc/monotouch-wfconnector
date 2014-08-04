@@ -38,6 +38,9 @@ namespace WFConnector
         [Export("currentState")]
         WFHardwareConnectorState CurrentState { get; } 
 
+        [Export("settings")]
+        WFConnectorSettings Settings { get; }
+
         [Export("discoverDevicesOfType:onNetwork:searchTimeout:")]
         bool DiscoverDevices(WFSensorType SensorType, WFNetworkType NetworkType, double SearchTimeout); 
 
