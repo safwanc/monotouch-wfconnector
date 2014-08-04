@@ -193,7 +193,7 @@ namespace WFConnector
         bool SaveConnectionInfo(WFSensorConnection ConnectionInfo); 
     }
 
-    [Protocol]
+    [Model][Protocol]
     [BaseType(typeof(NSObject))]
     interface WFSensorConnectionDelegate
     {
@@ -302,7 +302,7 @@ namespace WFConnector
         ulong GetWheelRevolutionsForWeek(char Week); 
     }
 
-    [Protocol]
+    [Model][Protocol]
     [BaseType(typeof(NSObject))]
     interface WFBikeSpeedCadenceDelegate
     {
